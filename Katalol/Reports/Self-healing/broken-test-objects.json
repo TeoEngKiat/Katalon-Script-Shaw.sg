@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Cart/a_CONTINUE",
+      "brokenLocator": "//div[@id\u003d\u0027promotion\u0027]/div[2]/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027IMPORTANT PLEASE READ\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Cart/a_CONTINUE_neighbor.png"
+    }
+  ]
 }

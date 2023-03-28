@@ -20,8 +20,6 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 
-boolean seat_found = false
-boolean h_seat_found = false
 String available_seat = "https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-avail.png"
 String unavailable_seat = "https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-unavail.png"
 String selected_seat = "https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-select.png"
@@ -41,6 +39,8 @@ WebUI.scrollToElement(findTestObject('Page_Shaw Theatres  Movies Details/a_0300 
 
 WebUI.click(findTestObject('Page_Shaw Theatres  Movies Details/a_0300 PM'))
 
+
+
 hall = WebUI.getText(findTestObject('Page_Cart/p_Shaw Theatres Lido Hall 3'))
 
 String[] parts = hall.split(' ')
@@ -49,7 +49,7 @@ String seat_no = '0001'
 
 
 //if seat selected is unavailable, click next seat
-while (seat_found == false) {
+while (true) {
 	
 	//create test object for seat_no
 	String seat_xpath = """//*[@id="LIDO${hall_no}_SD_EL${seat_no}_shape"]"""
@@ -68,14 +68,45 @@ while (seat_found == false) {
 	
 	else {
 		seat_no = String.format("%0" + seat_no.length() + "d", Long.parseLong(seat_no) + 1)
+		
 	}
 }
+
+String amt = WebUI.executeJavaScript('return document.querySelectorAll(".null").length;', null)
+amt = String.format("%0" + 4 + "d", Long.parseLong(amt))
+System.out.println(amt)
+
+while (true) {
+	
+	//create test object for seat_no
+	String seat_xpath = """//*[@id="LIDO${hall_no}_SD_EL${amt}_shape"]"""
+	TestObject seat = new TestObject()
+	seat.addProperty("xpath", ConditionType.EQUALS, seat_xpath)
+	
+	//gets the seat type
+	String seat_type = WebUI.getAttribute(seat, 'xlink:href')
+	
+	if (seat_type == handicap_seat) {
+		WebUI.click(seat)
+		break
+
+	}
+	
+	else {
+		amt = String.format("%0" + amt.length() + "d", Long.parseLong(amt) - 1)
+	}
+	
+}
+
+WebUI.click(findTestObject('Page_Cart/a_Confirm_h_seat'))
 
 WebUI.scrollToElement(findTestObject('Page_Cart/a_CONFIRM SEAT(S)'), 0)
 
 WebUI.click(findTestObject('Page_Cart/a_CONFIRM SEAT(S)'))
 
 WebUI.click(findTestObject('Page_Cart/a_Agree'))
+
+WebUI.click(findTestObject('Page_Cart/a_Proceed'))
 
 WebUI.click(findTestObject('Page_Cart/a_CONTINUE'))
 
@@ -88,4 +119,6 @@ WebUI.click(findTestObject('Page_Cart/a_Cancel'))
 WebUI.acceptAlert()
 
 WebUI.disableSmartWait()
+
+WebUI.closeBrowser()
 
