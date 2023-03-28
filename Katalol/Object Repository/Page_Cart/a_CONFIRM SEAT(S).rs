@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_CONFIRM SEAT(S)</name>
+   <tag></tag>
+   <elementGuidId>efe1bc88-fd83-4dc2-b66d-e9f37f20cef6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='AddToCart']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#AddToCart</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>49c490fa-b481-43a8-a02e-680cc2465de6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-custom text-uppercase btn-checkout mar-top-1 </value>
+      <webElementGuid>cae6841c-61c8-4da5-bb0a-898e3f32959b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>AddToCart</value>
+      <webElementGuid>a26acf60-e901-40de-964c-4c6b4096b42a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CONFIRM SEAT(S)</value>
+      <webElementGuid>db4a641d-eb62-418b-a5aa-f0edb3d81d27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;AddToCart&quot;)</value>
+      <webElementGuid>8c42fa0c-9226-4d9f-aa9d-195950498857</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='AddToCart']</value>
+      <webElementGuid>bccab11d-c521-436f-a186-b7f4c571a501</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='seatLayoutSection']/div[5]/div/div/a</value>
+      <webElementGuid>8ac6f6a8-adee-445b-b0cc-f03ed24ae965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'CONFIRM SEAT(S)')]</value>
+      <webElementGuid>31dcea4d-a781-447c-94e4-a81ba446c12f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.00'])[2]/following::a[1]</value>
+      <webElementGuid>041abe15-b4f6-466e-9fb6-f83eb2f52125</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL'])[1]/following::a[1]</value>
+      <webElementGuid>df36d1c1-c20e-4876-9c4d-c4b3c17f74eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RESET'])[1]/preceding::a[1]</value>
+      <webElementGuid>e3ad88cc-6f8a-4d07-87f4-79ecd9c74d34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Seat Selection'])[1]/preceding::a[3]</value>
+      <webElementGuid>a7f29fd6-ab65-43d7-8a67-a233843fcae5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CONFIRM SEAT(S)']/parent::*</value>
+      <webElementGuid>30f345f7-51c0-4892-94d9-86f9d4079a13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/a</value>
+      <webElementGuid>e86a6158-b50e-4e1c-a26c-9d366faff27c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'AddToCart' and (text() = 'CONFIRM SEAT(S)' or . = 'CONFIRM SEAT(S)')]</value>
+      <webElementGuid>44da4194-31d0-44c8-bc06-ee60fd701530</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

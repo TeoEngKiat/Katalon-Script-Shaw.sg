@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_MOVIES</name>
+   <tag></tag>
+   <elementGuidId>43492049-22d2-43ef-be22-6f687bf4930d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar']/div[8]/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>31f11f49-47a4-447a-8fc0-b3c0f650783b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/movie</value>
+      <webElementGuid>b5ad1089-c2e5-4224-bcad-4d8e84c5d902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          
+          MOVIES
+        </value>
+      <webElementGuid>f2310ca3-1e4c-4e7f-81b7-24de6a961cc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar&quot;)/div[@class=&quot;sidebar-menu&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[@class=&quot;sidebar-item-menu clearfix&quot;]/a[1]</value>
+      <webElementGuid>236fb07a-3c5c-4901-bbbc-bd7fa492a1d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar']/div[8]/ul/li[2]/a</value>
+      <webElementGuid>9f4afb0b-0c0d-4b62-9ab1-ee7fdc428e15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Copyright 2023 Shaw Organisation. All rights reserved. Co. Reg. No.: 194700158G'])[1]/following::a[9]</value>
+      <webElementGuid>1f0e5fe8-a7df-44a7-80ba-ccc86aff808a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MOVIES']/parent::*</value>
+      <webElementGuid>687e00aa-6f48-401d-88b2-c34ce584ae9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/movie')])[157]</value>
+      <webElementGuid>04f81589-f7e1-4469-904a-61e836990a26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/ul/li[2]/a</value>
+      <webElementGuid>012f1fce-3b7b-498b-95c7-953afa8fd19d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/movie' and (text() = '
+          
+          MOVIES
+        ' or . = '
+          
+          MOVIES
+        ')]</value>
+      <webElementGuid>66f8e1ba-c0d1-42df-94aa-4888222ae081</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
