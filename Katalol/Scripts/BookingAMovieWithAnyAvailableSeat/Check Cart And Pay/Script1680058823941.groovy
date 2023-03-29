@@ -17,12 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Cart/a_CONTINUE'))
+WebUI.click(findTestObject('Flores - Test Objects/Page_Cart/a_CONTINUE'))
 
-WebUI.click(findTestObject('Page_Cart/a_CONTINUE (1)'))
+WebUI.click(findTestObject('Flores - Test Objects/Page_Cart/a_CONTINUE (1)'))
 
-WebUI.click(findTestObject('Page_Cart/input_Choose your payment method_gender'))
+WebUI.click(findTestObject('Flores - Test Objects/Page_Cart/input_Choose your payment method_gender'))
 
-WebUI.click(findTestObject('Page_Cart/a_Cancel'))
+WebUI.click(findTestObject('Flores - Test Objects/Page_Cart/a_Cancel'))
 
 WebUI.acceptAlert()

@@ -25,7 +25,7 @@ String onHold_seat = "https://nonprodngsstorageshawsg.blob.core.windows.net/uat/
 String handicap_seat = "https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-wheelchair-avail.png"
 
 
-hall = WebUI.getText(findTestObject('Page_Cart/p_Shaw Theatres Lido Hall 3'))
+hall = WebUI.getText(findTestObject('Flores - Test Objects/Page_Cart/p_Shaw Theatres Lido Hall 3'))
 
 String[] parts = hall.split(' ')
 String hall_no = parts[-1]
@@ -57,9 +57,9 @@ while (true) {
 }
 
 
-WebUI.scrollToElement(findTestObject('Page_Cart/a_CONFIRM SEAT(S)'), 0)
+WebUI.scrollToElement(findTestObject('Flores - Test Objects/Page_Cart/a_CONFIRM SEAT(S)'), 0)
 
-WebUI.click(findTestObject('Page_Cart/a_CONFIRM SEAT(S)'))
+WebUI.click(findTestObject('Flores - Test Objects/Page_Cart/a_CONFIRM SEAT(S)'))
 
-WebUI.click(findTestObject('Page_Cart/a_Agree'))
+WebUI.click(findTestObject('Flores - Test Objects/Page_Cart/a_Agree'))
 

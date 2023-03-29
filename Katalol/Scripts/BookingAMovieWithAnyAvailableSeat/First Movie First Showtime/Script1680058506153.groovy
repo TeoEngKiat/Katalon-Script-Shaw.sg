@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Shaw Theatres  Welcome to Shaw/a_MOVIES'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Page_Shaw Theatres  Movie Listing/img'))
+WebUI.click(findTestObject('Flores - Test Objects/Page_Shaw Theatres  Movie Listing/img'))
 
-WebUI.scrollToElement(findTestObject('Page_Shaw Theatres  Movies Details/a_0300 PM'), 5)
+WebUI.scrollToElement(findTestObject('Flores - Test Objects/Page_Shaw Theatres  Movies Details/a_0300 PM'), 5)
 
-WebUI.click(findTestObject('Page_Shaw Theatres  Movies Details/a_0300 PM'))
+WebUI.click(findTestObject('Flores - Test Objects/Page_Shaw Theatres  Movies Details/a_0300 PM'))

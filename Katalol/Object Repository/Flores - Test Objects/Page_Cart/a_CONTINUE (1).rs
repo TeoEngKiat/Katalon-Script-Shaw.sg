@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_CONTINUE (1)</name>
+   <tag></tag>
+   <elementGuidId>06b4ee30-4eb0-4e8e-a9c6-3e393f803c93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.btn-custom.text-uppercase.btn-checkout.mar-top-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='addToOnePageAddon']/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>faab3d42-36da-42a2-a743-54ea05cefac8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-custom text-uppercase btn-checkout mar-top-1</value>
+      <webElementGuid>edcf69a7-da07-4ba4-9cf3-3013a8212bf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CONTINUE</value>
+      <webElementGuid>8ebaa2ae-653e-41c9-a794-0c0e341d58d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;addToOnePageAddon&quot;)/div[@class=&quot;col-right col-lg-7 col-lg-push-5 col-xs-12 col-sm-8 col-sm-push-4 clearfix func-btn&quot;]/div[@class=&quot;clearfix&quot;]/a[@class=&quot;btn btn-primary btn-custom text-uppercase btn-checkout mar-top-1&quot;]</value>
+      <webElementGuid>891eba31-283d-4125-8887-3be5f8dcb3fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='addToOnePageAddon']/div/div/a</value>
+      <webElementGuid>2eaca8dd-aa8e-4ab8-98a3-dfcb026a2188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'CONTINUE')]</value>
+      <webElementGuid>162ced4d-8644-4ed6-84a4-62bb235f3a97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[2]/following::a[1]</value>
+      <webElementGuid>6f20b156-2a22-47eb-ba26-fc5cc76d9750</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular Popcorn Combo'])[1]/following::a[2]</value>
+      <webElementGuid>a18abb42-6934-469f-ab46-1f0de2d86895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IMPORTANT PLEASE READ'])[1]/preceding::a[2]</value>
+      <webElementGuid>8a778c95-4a48-43f8-8f44-a008c57014bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agree'])[1]/preceding::a[2]</value>
+      <webElementGuid>7603f06b-5c5f-4d59-9d71-5d991a457067</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CONTINUE']/parent::*</value>
+      <webElementGuid>9cd812b4-5e0a-4e5d-b70f-a9f4e6c89adc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/div/div/a</value>
+      <webElementGuid>a468f9ce-14f5-43c9-bae4-54c8b9fb1ef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'CONTINUE' or . = 'CONTINUE')]</value>
+      <webElementGuid>ef75a126-032a-4a45-bdc2-b2c250367380</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

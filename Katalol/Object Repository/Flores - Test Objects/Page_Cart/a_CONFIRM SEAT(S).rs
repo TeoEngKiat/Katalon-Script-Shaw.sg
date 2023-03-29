@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Confirm_h_seat</name>
+   <name>a_CONFIRM SEAT(S)</name>
    <tag></tag>
-   <elementGuidId>01ff4608-2ba5-4961-94da-9aac02a42d18</elementGuidId>
+   <elementGuidId>efe1bc88-fd83-4dc2-b66d-e9f37f20cef6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='confirmSeatSelection']</value>
+         <key>CSS</key>
+         <value>#AddToCart</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#confirmSeatSelection</value>
+         <key>XPATH</key>
+         <value>//a[@id='AddToCart']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,134 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3f67a22f-e179-4664-a90c-dbe39bb020c5</webElementGuid>
+      <webElementGuid>49c490fa-b481-43a8-a02e-680cc2465de6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button form-control mid-wide bg-red inline</value>
-      <webElementGuid>081cebc9-d368-452e-9313-0c8b23c8a1d5</webElementGuid>
+      <value>btn btn-primary btn-custom text-uppercase btn-checkout mar-top-1 </value>
+      <webElementGuid>cae6841c-61c8-4da5-bb0a-898e3f32959b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>confirmSeatSelection</value>
-      <webElementGuid>2646c986-1067-4868-94c5-4c7fe4d89f34</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#confirmSeat</value>
-      <webElementGuid>001fea88-bb0b-40b1-afb8-9bd730d5057b</webElementGuid>
+      <value>AddToCart</value>
+      <webElementGuid>a26acf60-e901-40de-964c-4c6b4096b42a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Confirm</value>
-      <webElementGuid>b08bcc83-a9d7-4531-86be-d290e5d5fbd6</webElementGuid>
+      <value>CONFIRM SEAT(S)</value>
+      <webElementGuid>db4a641d-eb62-418b-a5aa-f0edb3d81d27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;confirmSeatSelection&quot;)</value>
-      <webElementGuid>7af403bd-206e-4fbb-8e5b-8e22d61fca2e</webElementGuid>
+      <value>id(&quot;AddToCart&quot;)</value>
+      <webElementGuid>8c42fa0c-9226-4d9f-aa9d-195950498857</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='confirmSeatSelection']</value>
-      <webElementGuid>d57167c5-e115-4c7b-a309-f8f2937f92ca</webElementGuid>
+      <value>//a[@id='AddToCart']</value>
+      <webElementGuid>bccab11d-c521-436f-a186-b7f4c571a501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popup-seat-confirmation']/div[2]/div/div/div[3]/a[2]</value>
-      <webElementGuid>9818b3c2-a4fa-42c4-9be3-e9b574fa6b31</webElementGuid>
+      <value>//div[@id='seatLayoutSection']/div[5]/div/div/a</value>
+      <webElementGuid>8ac6f6a8-adee-445b-b0cc-f03ed24ae965</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Confirm')]</value>
-      <webElementGuid>12f116af-7f47-4a69-bbdf-3de853e2321d</webElementGuid>
+      <value>//a[contains(text(),'CONFIRM SEAT(S)')]</value>
+      <webElementGuid>31dcea4d-a781-447c-94e4-a81ba446c12f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Seat Selection'])[1]/following::a[2]</value>
-      <webElementGuid>e142879a-c63d-4bba-a94c-d224eabf1b53</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.00'])[2]/following::a[1]</value>
+      <webElementGuid>041abe15-b4f6-466e-9fb6-f83eb2f52125</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='RESET'])[1]/following::a[3]</value>
-      <webElementGuid>79031b86-4e86-454c-a521-53181dee4187</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL'])[1]/following::a[1]</value>
+      <webElementGuid>df36d1c1-c20e-4876-9c4d-c4b3c17f74eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seat Selection Invalid'])[1]/preceding::a[1]</value>
-      <webElementGuid>91fac306-54db-4555-a863-e12ec5492118</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RESET'])[1]/preceding::a[1]</value>
+      <webElementGuid>e3ad88cc-6f8a-4d07-87f4-79ecd9c74d34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::a[1]</value>
-      <webElementGuid>85f4b1de-043d-4e9e-b593-e45faef44545</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Seat Selection'])[1]/preceding::a[3]</value>
+      <webElementGuid>a7f29fd6-ab65-43d7-8a67-a233843fcae5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
-      <webElementGuid>5f2ea4fe-dcd2-4159-95cd-3ffff00716fa</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '#confirmSeat')]</value>
-      <webElementGuid>9a229155-8971-4110-a4ce-b5e834b42407</webElementGuid>
+      <value>//*/text()[normalize-space(.)='CONFIRM SEAT(S)']/parent::*</value>
+      <webElementGuid>30f345f7-51c0-4892-94d9-86f9d4079a13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a[2]</value>
-      <webElementGuid>d37a4208-3d7e-465e-8192-1fb489ba40fa</webElementGuid>
+      <value>//div[5]/div/div/a</value>
+      <webElementGuid>e86a6158-b50e-4e1c-a26c-9d366faff27c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'confirmSeatSelection' and @href = '#confirmSeat' and (text() = 'Confirm' or . = 'Confirm')]</value>
-      <webElementGuid>d82af50a-bf86-4eb7-9f67-7aea1cd28d5b</webElementGuid>
+      <value>//a[@id = 'AddToCart' and (text() = 'CONFIRM SEAT(S)' or . = 'CONFIRM SEAT(S)')]</value>
+      <webElementGuid>44da4194-31d0-44c8-bc06-ee60fd701530</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
