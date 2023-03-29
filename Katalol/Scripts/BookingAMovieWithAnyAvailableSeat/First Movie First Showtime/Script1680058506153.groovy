@@ -17,17 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.testobject.TestObject
+WebUI.click(findTestObject('Page_Shaw Theatres  Welcome to Shaw/a_MOVIES'))
 
+WebUI.click(findTestObject('Page_Shaw Theatres  Movie Listing/img'))
 
+WebUI.scrollToElement(findTestObject('Page_Shaw Theatres  Movies Details/a_0300 PM'), 5)
 
-WebUI.callTestCase(findTestCase('BookingAMovieWithAnyAvailableSeat/Open Shaw Sg'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('BookingAMovieWithAnyAvailableSeat/First Movie First Showtime'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('BookingAMovieWithAnyAvailableSeat/Select Seat'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('BookingAMovieWithAnyAvailableSeat/Check Cart And Pay'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('BookingAMovieWithAnyAvailableSeat/End Case'), null, FailureHandling.STOP_ON_FAILURE)
-
+WebUI.click(findTestObject('Page_Shaw Theatres  Movies Details/a_0300 PM'))
